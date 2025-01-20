@@ -1,6 +1,15 @@
+@Library('simple-pipeline-library') _
+
+import com.poc.Helper;
+
 pipeline {
     agent any
     stages {
+        stage('call lib') {
+            steps {
+                echo Helper.hello()
+            }
+        }
         stage('checkout') {
             steps {
                 checkout scm
