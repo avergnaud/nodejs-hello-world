@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avergnaud/nodejs-hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avergnaud/nodejs-hello-world/issues"
+  },
+  "homepage": "https://github.com/avergnaud/nodejs-hello-world#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
